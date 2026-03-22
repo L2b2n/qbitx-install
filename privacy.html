@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-BitX Wallet – Privacy Policy</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+        h1 { font-size: 1.6em; }
+        h2 { font-size: 1.2em; margin-top: 2em; }
+        p, li { font-size: 0.95em; }
+        .date { color: #666; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: March 22, 2026</p>
+
+    <p><strong>Q-BitX Wallet</strong> ("the App") is a non-custodial cryptocurrency wallet. Your privacy is important to us. This policy explains what data the App collects, uses, and shares.</p>
+
+    <h2>1. Data We Do NOT Collect</h2>
+    <ul>
+        <li><strong>Private keys</strong> – Your private keys are generated and stored exclusively on your device (iOS Keychain / Android EncryptedSharedPreferences). They never leave your device.</li>
+        <li><strong>Personal information</strong> – We do not collect names, emails, phone numbers, or any personally identifiable information.</li>
+        <li><strong>Analytics or tracking</strong> – The App does not include any analytics SDKs, advertising frameworks, or tracking tools.</li>
+    </ul>
+
+    <h2>2. Data Stored on Your Device</h2>
+    <ul>
+        <li>Cryptographic key pairs (Dilithium/ML-DSA-65)</li>
+        <li>Wallet names and transaction history</li>
+        <li>Optional PIN hash</li>
+        <li>Custom RPC node URL (if configured)</li>
+    </ul>
+    <p>All data is encrypted at rest using platform-provided encryption (iOS Keychain, Android EncryptedSharedPreferences).</p>
+
+    <h2>3. Network Communication</h2>
+    <p>The App communicates with:</p>
+    <ul>
+        <li><strong>Q-BitX blockchain node</strong> (default: qbitx.solopool.site) – to query balances, broadcast transactions, and sync transaction history. Only your public wallet address is sent; never your private key.</li>
+        <li><strong>KlingEx API</strong> (api.klingex.io) – to fetch the current QBX/USDT exchange rate. No user data is transmitted.</li>
+    </ul>
+    <p>You may configure a custom RPC node URL in the App settings.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>The App does not share any data with third parties. There are no ads, no analytics, and no data brokers.</p>
+
+    <h2>5. Data Deletion</h2>
+    <p>You can delete all wallet data at any time from within the App settings. Uninstalling the App removes all locally stored data.</p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>The App is not directed at children under 17. We do not knowingly collect data from minors.</p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+    <h2>8. Contact</h2>
+    <p>If you have questions about this privacy policy, please open an issue on our <a href="https://github.com/L2b2n/QBitXWallet-iOS">GitHub repository</a>.</p>
+</body>
+</html>
